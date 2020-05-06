@@ -41,3 +41,10 @@ weather = "Hot and humid"
 # typically separate multiple words with an underscore (_)
 first_name = "Brian"
 current_weather_conditions = "Hot and humid"
+
+# Once we have our "objects", that is, a variable stored in memory, we are
+# able to perform operations on it. These operations are called "methods" and
+# usually involve getting some information on the data stored in memory, or
+# transforming the value in some way. More on these "methods" later.
+puts name.length
+puts name.reverse
