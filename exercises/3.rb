@@ -15,3 +15,17 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+list1 = ["milk","eggs","bacoln"]
+list2 = ["beer","cookies","apples"]
+
+comb = list1 + list2
+
+final = comb.uniq
+
+puts final
+
+
+
+
+
+
