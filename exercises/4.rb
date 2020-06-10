@@ -19,3 +19,5 @@ weather_data = {
     { :temperature => 70, :conditions => "Partly Cloudy" }
   ]
 }
+
+puts "Currently, it is #{weather_data[:current][:temperature]} degrees and #{weather_data[:current][:conditions]}. Tomorrow it will be...."
